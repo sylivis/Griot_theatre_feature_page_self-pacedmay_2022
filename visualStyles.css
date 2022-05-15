@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+body {
+    background-image: url(images/theater-image-background.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: left -150px(max 10%);
+    background-color: rgb(11, 0, 43);
+    font-family: 'Roboto', sans-serif;    
+
+}
+.head {
+    display: box;
+    color: aliceblue;
+    font-size: 200%;
+    font-weight: lighter;
+    text-indent: 15%;
+    margin-bottom: 0;
+    margin-top: 15% ;
+    
+}
+
+div.maingrid {
+    margin-top: 20%;
+    display: grid;
+    grid-template-columns: 1fx 1fx;
+    grid-template-rows: repeat(3 auto);
+    row-gap: 30px;
+
+}
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  
+    
+}
+.flex-container-nested{
+    display: flex;
+    margin: 10px;
+    flex-wrap: wrap;
+    flex-grow: auto;
+    padding: 10px;
+    border: 3px groove rgb(11, 70, 81);
+    background-color: rgba(10, 5, 23, 0.641);
+    justify-content: center;
+    border-radius: 7px;
+    
+}
+.show {
+    flex-shrink: auto;
+    width: 1fx;
+    height:fit-content;
+    padding: 5px;
+    min-height: fit-content;
+    max-height: 160px;
+    margin:10px;
+    border: 3px;
+    background-color: rgba(10, 5, 23, 0.641);
+    border: 2px groove black  ;
+    border-radius: 3px ;
+    color: aliceblue;
+}
+img {
+    
+    height: auto;
+    width: auto;
+    flex-shrink: 2;
+    
+    border-radius: 3px;
+    
+} 
+
+   
+button {
+    background-color: rgb(113, 161, 165);
+    border-radius: 3px; 
+    margin: 7px;    
+}
+
+button:hover {
+    cursor: pointer;
+    color: rgba(125, 174, 183, 0.624);
+}
